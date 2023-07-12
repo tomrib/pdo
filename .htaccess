@@ -1,0 +1,12 @@
+RewriteEngine ON
+RewriteRule ^inscription$ controllers/registerController.php
+RewriteRule ^connexion$ controllers/loginController.php
+RewriteRule ^accueil$ index.php
+RewriteRule ^deconnexion$ controllers/logoutController.php
+RewriteRule ^ajout-d-article$ controllers/createPostsController.php
+RewriteRule ^article$ controllers/postsController.php
+RewriteRule ^Lire-article-([0-9]+)$ controllers/onePostsController.php?id=$1
+RewriteRule ^Profil$ controllers/profileController.php
+RewriteRule ^vos-article$ controllers/myPostsController.php
+RewriteRule ^modifier-article([0-9]+)$ controllers/updatePostsController.php?id=$1
+RewriteRule ^recherche$ controllers/postsResearchController.php

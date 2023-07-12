@@ -1,0 +1,19 @@
+nav {
+    background-color: #fffffe;
+    display: flex;
+    justify-content: space-between;
+    ul {
+        padding: 0px;
+        li {
+            display: inline;
+            padding: 1rem;
+            a {
+                text-decoration: none;
+                color: #000000;
+                &:hover {
+                    border-bottom: 2px solid #f4b6f6;
+                }
+            }
+        }
+    }
+}

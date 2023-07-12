@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+nav {
+  background-color: #fffffe;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  padding: 0px;
+}
+nav ul li {
+  display: inline;
+  padding: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #f4b6f6;
+}
+
+.formStatus {
+  padding: 2rem;
+}
+.formStatus.fail {
+  background-color: #f25457;
+  color: white;
+  text-align: center;
+}
+.formStatus.success {
+  background-color: #a3f7bf;
+  color: black;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+form div input:not([type=submit]) {
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 0.5rem;
+}
+form div p {
+  color: #f25457;
+}
+form .buttonsBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+form .buttonsBox input[type=submit] {
+  background-color: #f4b6f6;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  padding: 0.7rem;
+}
+form .buttonsBox #cancel {
+  background-color: transparent;
+  border: 2px solid #f4b6f6;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 0.7rem;
+}
+form .buttonsBox #cancel a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  background-image: linear-gradient(45deg, transparent 0%, transparent 55%, rgba(183, 9, 240, 0.04) 55%, rgba(183, 9, 240, 0.04) 76%, transparent 76%, transparent 100%), linear-gradient(135deg, transparent 0%, transparent 14%, rgba(183, 9, 240, 0.04) 14%, rgba(183, 9, 240, 0.04) 41%, transparent 41%, transparent 100%), linear-gradient(45deg, transparent 0%, transparent 2%, rgba(183, 9, 240, 0.04) 2%, rgba(183, 9, 240, 0.04) 18%, transparent 18%, transparent 100%), linear-gradient(135deg, transparent 0%, transparent 61%, rgba(183, 9, 240, 0.04) 61%, rgba(183, 9, 240, 0.04) 71%, transparent 71%, transparent 100%), linear-gradient(90deg, rgba(232, 1, 215, 0.1), rgba(232, 1, 215, 0.1));
+  font-family: Poppins, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+body main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh;
+  width: 100%;
+}
+body main section {
+  background-color: #fffffe;
+  padding: 2.5rem;
+  width: 70%;
+}
+body main section h1 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
